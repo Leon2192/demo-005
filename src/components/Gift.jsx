@@ -68,15 +68,14 @@ const Gift = () => {
               variant="h6"
               sx={{
                 fontFamily: "'Quicksand'",
-                fontSize: { xs: "1.2rem", md: "1.8rem" },
+                fontSize: { xs: "1rem", md: "1.8rem" },
                 color: "#000000",
                 fontWeight: 500,
                 mb: 4,
               }}
             >
-              Nuestro mejor regalo
-              es tu presencia 
-              Peeeero... si queres colaborear con nuestra
+              Nuestro mejor regalo es tu presencia 
+              Peeeero... si queres colaborar con nuestra
               luna de miel...
             </Typography>
 
