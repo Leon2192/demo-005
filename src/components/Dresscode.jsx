@@ -34,7 +34,7 @@ const Dresscode = () => {
         >
           <Box
             component="img"
-            src="/images/005/dress.gif"
+            src="/images/005/confirm.gif"
             alt="Dresscode"
             sx={{
               width: 125,

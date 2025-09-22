@@ -163,8 +163,8 @@ const Gift = () => {
                 lineHeight: 1.6,
               }}
             >
-              Alias: <strong>tierramisionera.w</strong> <br />
-              CBU: <strong>0070308430004034501620</strong> <br />
+              Alias: <strong>12345</strong> <br />
+              CBU: <strong>00000000000000000000000</strong> <br />
               <br />
               También podés dejarnos un sobre en un 📬 que tendremos en el Salón.
             </Typography>
