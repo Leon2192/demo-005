@@ -7,11 +7,8 @@ const InfoEvent = () => {
     threshold: 0.2,
   });
 
-  const direccion =
-    "Polo House - Av. Dorrego 3400 - CABA, Buenos Aires";
-
   const mapsUrl =
-    "https://www.google.com/maps/place/Polo+House,+Av.+Dorrego+3400,+C1425+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/data=!4m2!3m1!1s0x95bcb5b1bbec7449:0x7156b149213fd199?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI1LjM3LjEYACCenQoqmQEsOTQyNjc3MjcsOTQyODQ1MTEsOTQyMjMyOTksOTQyMTY0MTMsOTQyODA1NzYsOTQyMTI0OTYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTc1MjMsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksNDcwODQzOTMsOTQyMTMyMDAsOTQyNTgzMjVCAkFS&skid=3b849db4-1a13-4557-93d3-396c66fce02e&g_st=am";
+    "https://www.google.com/maps/place/Polo+House,+Av.+Dorrego+3400,+C1425+Cdad.+Aut%C3%B3noma+de+Buenos+Aires";
 
   return (
     <Box ref={ref} sx={{ position: "relative", width: "100%" }}>
@@ -20,14 +17,10 @@ const InfoEvent = () => {
         component="img"
         src="/images/005/ceremonia.webp"
         alt="Ceremonia y Fiesta"
-        sx={{
-          width: "100%",
-          height: "auto",
-          display: "block",
-        }}
+        sx={{ width: "100%", height: "auto", display: "block" }}
       />
 
-      {/* Contenido centrado dentro de la parte blanca */}
+      {/* Contenido centrado */}
       <Box
         sx={{
           position: "absolute",
@@ -40,80 +33,111 @@ const InfoEvent = () => {
           maxWidth: { xs: "300px", md: "360px" },
         }}
       >
+        <br />
+        <br />
         <Slide in={inView} direction="up" timeout={800}>
+
           <Box>
-            <br />
-            <br />
             <Typography
               variant="h4"
-              gutterBottom
               sx={{
                 fontFamily: "'Eyesome'",
                 fontSize: { xs: "2rem", md: "2.8rem" },
                 color: "#000000",
                 fontWeight: 600,
                 lineHeight: 1.2,
+                mb: 1.5, // margen uniforme
               }}
             >
               Ceremonia & Fiesta
             </Typography>
 
+            {/* Fecha */}
             <Typography
               sx={{
-                mb: 1,
+                mb: 1.5,
                 fontFamily: "'Quicksand', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
                 color: "#000000",
                 fontWeight: "bold",
-                lineHeight: 1.4,
+                lineHeight: 1.3,
+                whiteSpace: "nowrap",
               }}
             >
-              Sábado 29 de Noviembre de 2025
+              Sábado 29 de Noviembre
             </Typography>
 
+            {/* Hora */}
             <Typography
               sx={{
-                mb: 1,
+                mb: 1.5,
                 fontFamily: "'Quicksand', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
                 color: "#000000",
                 fontWeight: "bold",
-                lineHeight: 1.4,
+                lineHeight: 1.3,
+                whiteSpace: "nowrap",
               }}
             >
               19:30 hs
             </Typography>
 
+            {/* Dirección */}
             <Typography
               sx={{
-                mb: 3,
+                mb: 1.5,
                 fontFamily: "'Quicksand', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
                 color: "#000000",
                 fontWeight: "bold",
-                lineHeight: 1.4,
+                lineHeight: 1.3,
               }}
             >
-              {direccion}
+              Polo House
             </Typography>
 
-            {/* Nuevo botón personalizado */}
+            <Typography
+              sx={{
+                mb: 1.5,
+                fontFamily: "'Quicksand', serif",
+                fontSize: { xs: "1rem", md: "1.2rem" },
+                color: "#000000",
+                fontWeight: "bold",
+                lineHeight: 1.3,
+              }}
+            >
+              Avenida Dorrego 3400
+            </Typography>
+
+            <Typography
+              sx={{
+                mb: 1.5,
+                fontFamily: "'Quicksand', serif",
+                fontSize: { xs: "1rem", md: "1.2rem" },
+                color: "#000000",
+                fontWeight: "bold",
+                lineHeight: 1.3,
+              }}
+            >
+              CABA
+            </Typography>
+
+            {/* Botón */}
             <Button
               variant="contained"
               href={mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
               sx={{
+                mt: 1.5, // mismo espacio arriba que los demás
                 backgroundColor: "#000000",
                 color: "#ffffff",
-                borderRadius: "50px", // bien redondeado
+                borderRadius: "50px",
                 px: 2,
                 py: 1,
                 fontFamily: "'Quicksand', serif",
                 fontWeight: "bold",
-                "&:hover": {
-                  backgroundColor: "#333333",
-                },
+                "&:hover": { backgroundColor: "#333333" },
               }}
             >
               CÓMO LLEGAR

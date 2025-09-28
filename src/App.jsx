@@ -63,10 +63,10 @@ function App() {
       <Hero />
       <Countdown />
       <InfoEvent />
-      <Qr />
-      <Gift />
       <Confirm />
       <Dresscode />
+      <Gift />
+      <Qr />
       <Thanks/>
    
     </>
