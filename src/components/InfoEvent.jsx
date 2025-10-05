@@ -15,7 +15,7 @@ const InfoEvent = () => {
       {/* Imagen de fondo */}
       <Box
         component="img"
-        src="/images/005/ceremonia.webp"
+        src="/images/modificaciones/CEREMONIA.webp"
         alt="Ceremonia y Fiesta"
         sx={{ width: "100%", height: "auto", display: "block" }}
       />

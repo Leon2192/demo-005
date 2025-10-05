@@ -14,7 +14,7 @@ const Dresscode = () => {
         minHeight: "30vh",
         py: 8,
         px: 2,
-        backgroundImage: "url('/images/005/textura.png')", // 👈 textura de fondo
+        backgroundImage: "url('/images/modificaciones/FONDODRESS.webp')", // 👈 textura de fondo
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",

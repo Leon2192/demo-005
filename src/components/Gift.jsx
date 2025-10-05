@@ -12,7 +12,7 @@ const Gift = () => {
       {/* Imagen de fondo */}
       <Box
         component="img"
-        src="/images/005/textura.png"
+        src="/images/modificaciones/FONDODRESS.webp"
         alt="Regalo Fondo"
         sx={{
           width: "100%",
