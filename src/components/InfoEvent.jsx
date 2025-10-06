@@ -8,7 +8,7 @@ const InfoEvent = () => {
   });
 
   const mapsUrl =
-    "https://www.google.com/maps/place/Polo+House,+Av.+Dorrego+3400,+C1425+Cdad.+Aut%C3%B3noma+de+Buenos+Aires";
+    "https://www.google.com/maps/place/Polo+House/@-34.5716452,-58.4277855,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcb5b1bbec7449:0x7156b149213fd199!8m2!3d-34.5716452!4d-58.4252106!16s%2Fg%2F11t_jtz6q6?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D";
 
   return (
     <Box ref={ref} sx={{ position: "relative", width: "100%" }}>
