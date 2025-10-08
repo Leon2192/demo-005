@@ -49,7 +49,7 @@ const Qr = () => {
           <Typography
             variant="h4"
             sx={{
-              fontFamily: "'Eyesome'",
+              fontFamily: "'Quicksand'",
               fontSize: { xs: "2.5rem", md: "3.5rem" },
               color: "#000000",
               mb: 1,

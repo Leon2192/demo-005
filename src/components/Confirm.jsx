@@ -57,7 +57,7 @@ const Confirm = () => {
             mb: 4,
           }}
         >
-          Esperamos que seas parte de esta gran celebración. ¡Confirmanos tu asistencia!
+          Esperamos que seas parte de nuestra celebración. ¡Confirmanos tu asistencia!
         </Typography>
 
         {/* Botón */}
