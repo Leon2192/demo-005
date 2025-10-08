@@ -14,7 +14,10 @@ const Qr = () => {
         minHeight: "30vh",
         py: 8,
         px: 2,
-        backgroundColor: "#ffffff",
+        backgroundImage: "url('/images/modificaciones/FONDODRESS.webp')", // 👈 textura de fondo
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

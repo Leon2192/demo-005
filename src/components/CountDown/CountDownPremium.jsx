@@ -42,7 +42,10 @@ const Countdown = () => {
       sx={{
         minHeight: "30vh",
         py: 6,
-        backgroundColor: "#ffffff",
+        backgroundImage: "url('/images/modificaciones/FONDODRESS.webp')", // 👈 textura de fondo
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
